@@ -1,0 +1,40 @@
+#heading1{
+    background-color: #09094b;
+    color : beige;
+    Padding : 25px;
+    margin : 0 px;
+}
+.choiceall{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+#rock:hover{
+    opacity: 0.5;
+}
+#paper:hover{
+    opacity: 0.5;
+}
+#scissors:hover{
+    opacity: 0.5;
+}
+#scores{
+    display: flex;
+    font-size : 2rem;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+
+}
+#result{
+    font-size:30px;
+    background-color: black;
+    color: white;
+    padding-left:30px;
+    padding-right:30px;
+    margin-top:10px;
+    display: inline-block;
+    border-radius: 2rem;
+    padding : 30px;
+}
